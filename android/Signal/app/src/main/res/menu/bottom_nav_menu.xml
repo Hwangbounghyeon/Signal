@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/home"
+        android:layout_gravity="center"/>
+
+    <item
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/baseline_chat_24"
+        android:title="@string/chatting"
+        android:layout_gravity="center"/>
+
+    <item
+        android:id="@+id/matchFragment"
+        android:icon="@drawable/baseline_map_24"
+        android:title="@string/matching"
+        android:layout_gravity="center"/>
+
+    <item
+        android:id="@+id/myPageFragment"
+        android:icon="@drawable/baseline_person_24"
+        android:title="@string/my_page"
+        android:layout_gravity="center"/>
+
+</menu>
